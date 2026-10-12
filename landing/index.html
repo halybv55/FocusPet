@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PasoAPaso – Divide tus tareas grandes en pasos pequeños</title>
+  <meta name="description" content="Escribe tu tarea y recibe pasos pequeños con tiempo estimado. Cumple tus tareas diarias y cuida a tu mascota. Únete a la beta.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="topbar">
+    <div class="container topbar__inner">
+      <a class="brand" href="#inicio"><span class="brand__dot" aria-hidden="true"></span><span data-app-name>PasoAPaso</span></a>
+      <nav class="topbar__nav" aria-label="Principal">
+        <a href="#problema">Problema</a>
+        <a href="#como-funciona">Cómo funciona</a>
+        <a href="#prototipo">Prototipo</a>
+        <a class="btn btn--small" href="#beta">Unirme a la beta</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="inicio">
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__text">
+          <p class="eyebrow">Beta cerrada · Para universitarios</p>
+          <h1>Deja de postergar: te decimos <span class="hl">por dónde empezar</span></h1>
+          <p class="lead">Escribes tu tarea grande (tesis, proyecto, examen) y la dividimos en pasos pequeños con el tiempo que toma cada uno. Cada día que cumples, tu mascota crece.</p>
+          <div class="hero__cta">
+            <a class="btn" href="#beta">Quiero entrar a la beta</a>
+            <a class="btn btn--ghost" href="#prototipo">Ver el prototipo</a>
+          </div>
+          <p class="hint">Gratis durante la beta. Sin tarjeta.</p>
+        </div>
+        <div class="hero__img">
+          <img src="assets/wf2_inicio.png" alt="Pantalla de inicio con la mascota y las tareas del día" width="360" height="720">
+        </div>
+      </div>
+    </section>
+
+    <!-- PROBLEMA -->
+    <section id="problema" class="section">
+      <div class="container narrow">
+        <h2>El problema: una tarea grande paraliza</h2>
+        <p>Cuando un trabajo se ve enorme, no sabemos cuál es el primer paso. Abrimos el documento, lo cerramos y dejamos todo para la noche anterior. No es falta de ganas: es no tener un siguiente paso claro.</p>
+        <p>Las listas y agendas te piden planificar tú solo, justo lo que más cuesta cuando ya estás abrumado.</p>
+      </div>
+    </section>
+
+    <!-- COMO FUNCIONA -->
+    <section id="como-funciona" class="section section--alt">
+      <div class="container">
+        <h2>Así funciona</h2>
+        <div class="grid grid--3">
+          <article class="card">
+            <span class="num">1</span>
+            <h3>Cuéntanos la tarea</h3>
+            <p>Escribe qué tienes que hacer y para cuándo. Una frase basta.</p>
+          </article>
+          <article class="card">
+            <span class="num">2</span>
+            <h3>Recibe pasos pequeños</h3>
+            <p>La dividimos en pasos concretos, cada uno con su tiempo estimado. Puedes editarlos.</p>
+          </article>
+          <article class="card">
+            <span class="num">3</span>
+            <h3>Cumple y cuida a tu mascota</h3>
+            <p>Completa tus tareas diarias y tu mascota se mantiene feliz y sube de nivel.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PUBLICO + BENEFICIOS -->
+    <section class="section">
+      <div class="container">
+        <div class="two-col">
+          <div>
+            <h2>¿Para quién es?</h2>
+            <p>Para <strong>estudiantes universitarios de 18 a 25 años</strong> que tienen trabajos grandes (tesis, proyectos de grado, informes, exámenes) y varias materias a la vez.</p>
+            <p class="muted">Si siempre dices "mañana empiezo", esta beta es para ti.</p>
+          </div>
+          <div>
+            <h2>Beneficios</h2>
+            <ul class="benefits">
+              <li><strong>Simplicidad:</strong> un solo campo para empezar.</li>
+              <li><strong>Ahorro de tiempo:</strong> no pierdes horas planificando.</li>
+              <li><strong>Claridad:</strong> ves solo el paso que toca hoy.</li>
+              <li><strong>Tranquilidad:</strong> sabes cuánto falta y cuánto tarda.</li>
+              <li><strong>Constancia:</strong> tu mascota te motiva sin regañarte.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROTOTIPO -->
+    <section id="prototipo" class="section section--alt">
+      <div class="container">
+        <h2>Mira el prototipo</h2>
+        <p class="lead lead--center">Estas son las pantallas que estamos diseñando. Desliza para ver el recorrido completo.</p>
+        <div class="gallery" role="list" tabindex="0" aria-label="Pantallas del prototipo">
+          <figure class="shot" role="listitem">
+            <img src="assets/wf1_bienvenida.png" alt="Pantalla 1: bienvenida y elección de mascota" loading="lazy" width="360" height="720">
+            <figcaption><strong>1. Bienvenida</strong><br>Eliges y nombras a tu mascota.</figcaption>
+          </figure>
+          <figure class="shot" role="listitem">
+            <img src="assets/wf2_inicio.png" alt="Pantalla 2: inicio con tareas diarias" loading="lazy" width="360" height="720">
+            <figcaption><strong>2. Inicio</strong><br>Tareas diarias y tu mascota.</figcaption>
+          </figure>
+          <figure class="shot" role="listitem">
+            <img src="assets/wf3_nueva_tarea.png" alt="Pantalla 3: nueva tarea" loading="lazy" width="360" height="720">
+            <figcaption><strong>3. Nueva tarea</strong><br>Describes lo que debes hacer.</figcaption>
+          </figure>
+          <figure class="shot" role="listitem">
+            <img src="assets/wf4_desglose.png" alt="Pantalla 4: desglose en pasos con tiempo" loading="lazy" width="360" height="720">
+            <figcaption><strong>4. Desglose</strong><br>Pasos pequeños con tiempo estimado.</figcaption>
+          </figure>
+          <figure class="shot" role="listitem">
+            <img src="assets/wf5_paso_foco.png" alt="Pantalla 5: paso en foco con temporizador" loading="lazy" width="360" height="720">
+            <figcaption><strong>5. Paso en foco</strong><br>Un paso a la vez, con temporizador.</figcaption>
+          </figure>
+          <figure class="shot" role="listitem">
+            <img src="assets/wf6_progreso.png" alt="Pantalla 6: mascota y progreso" loading="lazy" width="360" height="720">
+            <figcaption><strong>6. Progreso</strong><br>Racha, estadísticas y mascota.</figcaption>
+          </figure>
+        </div>
+        <p class="muted center">Es un prototipo de diseño: la app todavía no está construida.</p>
+      </div>
+    </section>
+
+    <!-- BETA FORM -->
+    <section id="beta" class="section">
+      <div class="container narrow">
+        <h2>Únete a la beta</h2>
+        <p class="lead">Déjanos tus datos y te avisamos cuando abramos los primeros lugares. Tus respuestas nos ayudan a decidir qué construir primero.</p>
+
+        <form id="beta-form" class="form" novalidate>
+          <div class="field">
+            <label for="nombre">Nombre</label>
+            <input id="nombre" name="nombre" type="text" autocomplete="name" maxlength="80" required>
+            <p class="error" id="error-nombre" role="alert"></p>
+          </div>
+
+          <div class="field">
+            <label for="correo">Correo electrónico</label>
+            <input id="correo" name="correo" type="email" autocomplete="email" maxlength="120" required>
+            <p class="error" id="error-correo" role="alert"></p>
+          </div>
+
+          <div class="field">
+            <label for="perfil">Tu perfil</label>
+            <select id="perfil" name="perfil" required>
+              <option value="">Selecciona una opción</option>
+              <option value="universitario">Estudiante universitario</option>
+              <option value="posgrado">Estudiante de posgrado</option>
+              <option value="docente">Docente</option>
+              <option value="otro">Otro</option>
+            </select>
+            <p class="error" id="error-perfil" role="alert"></p>
+          </div>
+
+          <div class="field">
+            <label for="institucion">Universidad o empresa <span class="opt">(opcional)</span></label>
+            <input id="institucion" name="institucion" type="text" maxlength="100">
+            <p class="error" id="error-institucion" role="alert"></p>
+          </div>
+
+          <div class="field">
+            <label for="necesidad">¿Qué tarea postergas más o te cuesta empezar?</label>
+            <textarea id="necesidad" name="necesidad" rows="4" maxlength="500" required></textarea>
+            <p class="counter"><span id="necesidad-count">0</span>/500</p>
+            <p class="error" id="error-necesidad" role="alert"></p>
+          </div>
+
+          <div class="field">
+            <label for="interes">¿Qué tan interesado/a estás en usar la app?</label>
+            <select id="interes" name="interes" required>
+              <option value="">Selecciona una opción</option>
+              <option value="alto">Mucho: quiero probarla ya</option>
+              <option value="medio">Medio: me da curiosidad</option>
+              <option value="bajo">Poco: solo estoy viendo</option>
+            </select>
+            <p class="error" id="error-interes" role="alert"></p>
+          </div>
+
+          <!-- Campo trampa anti-spam: las personas no lo ven -->
+          <div class="hp" aria-hidden="true">
+            <label for="sitio_web">No llenar</label>
+            <input id="sitio_web" name="sitio_web" type="text" tabindex="-1" autocomplete="off">
+          </div>
+
+          <div class="field field--check">
+            <input id="privacidad" name="privacidad" type="checkbox" required>
+            <label for="privacidad">Acepto que usen mis datos solo para contactarme sobre la beta y para mejorar el producto. Puedo pedir que los borren.</label>
+            <p class="error" id="error-privacidad" role="alert"></p>
+          </div>
+
+          <button id="submit-btn" class="btn btn--block" type="submit">Inscribirme a la beta</button>
+          <p id="form-message" class="message" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p><strong data-app-name>PasoAPaso</strong> · Proyecto académico en fase de validación.</p>
+      <p class="muted">Solo pedimos los datos necesarios. No vendemos ni compartimos tu información. Para borrar tus datos, escríbenos al correo de contacto del proyecto.</p>
+    </div>
+  </footer>
+
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
